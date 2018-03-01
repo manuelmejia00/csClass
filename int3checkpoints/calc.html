@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator Checkpoint - Manny Mejia</title>
+</head>
+<body>
+    
+    <h4>5-OPERATION CALCULATOR</h4>
+
+    <input id="firstNumber">
+    
+        
+    <select id="operator">
+
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+        <option>^</option>
+
+    </select>
+    
+    <input id="secondNumber">
+    
+    <button id = "calculateButton"> CALCULATE </button>
+    
+    <div id="answerDiv"> ANSWER: </div>
+    
+    
+    <style>
+        
+        body{
+            
+            background-color: rgb(176, 196, 222);
+            
+        }
+        
+        #calculateButton{
+            border-radius: 6px;
+            background-color: rgb(153, 153, 255);
+            height: 300px;
+            width: 700px;
+            letter-spacing:25px;
+            padding: 200px;
+            text-shadow: 3px 2px orange;
+            font-size:2em;
+
+        }
+        
+        
+        input{
+            
+            background-color: orange;
+            font-size: 6em;
+            /*height: 300px;*/
+
+            width: 250px;
+            padding: 50px 50px 50px 50px;
+            
+        }
+        
+        
+        #answerDiv{
+            
+            margin-top: 60px;
+            background-color: white;
+            display:inline;
+            font-size: 3em;
+            
+            
+        }
+        
+        
+        
+        select{
+            height:100px;
+            width: 100px;
+            font-size: 6em;
+            
+        }
+        
+        
+         
+        h4 {
+            
+          text-align: center;
+          font-size: 3em;
+          text-decoration: underline;
+          text-decoration-color: green;
+          
+            
+        }
+        
+        
+        
+        
+    </style>
+    <script type="text/javascript" src="calc.js"></script>
+</body>
+</html>
+

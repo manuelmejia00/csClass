@@ -1,0 +1,115 @@
+/* CSS File for How-To Page*/
+
+img{
+    margin:40px;
+}
+
+body{
+    font-family: arial;
+    text-align:center;
+    background-color: #606060;
+    font-size: 19px
+    
+
+    
+}
+
+
+h3{
+    margin-top:100px;
+}
+
+
+p{
+    margin-right: 100px;
+    margin-left: 100px
+    
+}
+
+
+
+#howto-title{
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    display:inline-block;
+    color: white;
+}
+
+#intro-h3{
+    background-color:#6495ED;
+}
+
+#intro-p{
+    border: 5px solid #6495ED;
+    margin-bottom: 125px;
+    color: white;
+}
+
+
+
+
+#specifics-h3{
+    background-color:#6495ED;
+    margin-top:100px;
+}
+
+#specifics1-p, #specifics2-p, #specifics3-p{
+    border: 5px solid #6495ED;
+    color: white;
+}
+
+#specifics3, #specifics1, #specifics2{
+    border: 5px solid #6495ED;
+}
+
+
+
+
+
+
+#choices-h3{
+    background-color:#6495ED;
+}
+
+#choices-p{
+    border: 5px solid #6495ED;
+    color: white;
+}
+
+#choices1, #choices2, #choices3{
+    border: 5px solid #6495ED;
+}
+
+
+
+
+
+#understanding-h3{
+    background-color:#6495ED;
+    margin-top:100px;
+}
+
+#understanding-p{
+    border: 5px solid #6495ED;
+    color: white;
+}
+
+
+
+
+
+#next-h3{
+    background-color:#6495ED;
+    margin-top:100px;
+}
+
+#next-p {
+    
+    border: 5px solid #6495ED;
+    color: white;
+    margin-bottom: 150px
+    
+}
+
+
+

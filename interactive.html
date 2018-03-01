@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>What should I have for lunch today?</title>
+</head>
+<body>
+    <h1>What should I have for lunch today?</h1>
+    
+    <img src = "images/thinkFace.png" id ="thinkImg">
+
+    
+    
+    <p>We've all been there.<br> You're hungry, but you can't make up your mind on where to grab lunch. Let me make the decision so you don't have to.</p>
+    
+
+    <p id ="p1">First thing's first, would you like to eat vegan/vegetarian today?</p>
+    <select id="firstQ">
+        
+        <option>Yep</option>
+        <option>Nope</option>    
+        
+    </select>    
+    
+    <br>
+    
+    
+    <p id ="p2">Would you rather go to a fast food place or a sit-down restaurant?</p>
+    <select id ="secondQ">
+        
+        <option>Fast Food</option>
+        <option>Sit-Down</option>
+                
+    </select>    
+    
+    <br>
+    
+    
+    <p id ="p3">Are you feeling like eating a certain cuisine? If so, go ahead and say which one:</p>
+    <select id ="thirdQ">
+        
+        <option>Mexican</option>
+        <option>Italian</option>
+        <option>Asian</option>
+        <option>American</option>        
+        
+        
+    </select>    
+
+    <br>
+
+
+
+    <button id ="submitButton">Submit!</button>
+    
+
+    <div id ="resultDiv">For lunch, you should eat at: </div>
+    
+    
+    
+    <style>
+
+        body {
+            
+            background-color: #F5DEB3;
+            
+        }
+
+        
+        #thinkImg{
+            
+            float: right;
+            height: 600px;
+            width: 600px;
+            
+        }
+        
+        #resultDiv{
+            float: right;
+            margin-right: 10px;
+        }
+        
+
+        #p1, #p2, #p3{
+            
+            margin-top: 80px;
+            
+        }
+
+
+        
+        #p1{
+            
+            background-color: lightgreen;
+            margin-right: 1220px ;
+
+        }
+    
+
+        #p2{
+            
+            background-color: lightblue;
+            margin-right: 1090px ;
+
+        }
+
+
+        #p3{
+            
+            background-color: hotpink;
+            margin-right: 1000px ;
+
+        }
+
+
+
+        
+        #submitButton{
+            
+            margin-top:70px;
+            margin-left: 60px;
+            margin-bottom: 30px;
+            background-color: #7FFFD4;
+            border-radius: 40px;
+            height: 40px;
+            width: 80px;
+            
+        }
+        
+        
+    </style>
+    <script type="text/javascript" src="interactive.js"></script>    
+</body>
+</html>
+

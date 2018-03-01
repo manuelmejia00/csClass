@@ -1,0 +1,147 @@
+
+body{
+    font-family: arial;
+    animation: colorSwitch infinite 7s;
+    text-align:center;
+}
+
+
+@keyframes colorSwitch{
+    0% {background-color:#FFEBCD;}
+    50% {background-color:#99FFFF;}
+    100% {background-color:#FFEBCD;}
+}    
+
+#first-title{
+    text-align:center;
+    color: rgb(102, 102, 255);
+    border-top-style:dotted ;
+    border-bottom-style: dotted;
+    display:inline-block;
+}
+
+
+#first-h3{
+    background-color: lightpink;    
+    margin-top:70px;
+}
+
+#first-h3:hover{
+    background-color: lightgreen;
+}
+
+
+
+#second-h3{
+    background-color: #FFFF66;    
+    margin-top:70px;
+}
+
+#second-h3:hover{
+    background-color: lightgreen;
+}
+
+
+#first-paragraph{
+    border: 5px solid lightpink;
+    display:inline-block
+}
+
+#first-paragrah:hover{
+    background-color: lightgreen;
+}
+
+#manny-rock{
+    width:539px;
+    height:730px;
+    -webkit-transition: width 2s;
+    transition: all 2s;
+    margin-bottom: 100px;
+    border: 5px solid lightpink;
+    display:inline-block;
+}
+
+#manny-rock:hover{
+    width:808px;
+    height:1095px;
+}
+
+#second-paragraph{
+    border: 5px solid #FFFF66;
+    display:inline-block
+}
+
+#first-screenshot, #second-screenshot{
+    margin-bottom:100px;
+    border: 5px solid #FFFF66;
+}
+
+#khan-screenshot, #w3-screenshot{
+    margin-bottom:100px;
+    border: 5px solid #CC99FF;
+}
+
+
+#third-h3{
+    background-color: #CC99FF;    
+    margin-top:70px;
+}
+
+
+#third-h3:hover{
+    background-color: lightgreen;
+}
+
+#third-paragraph{
+    border: 5px solid #CC99FF;
+    display:inline-block
+}
+
+
+#fourth-h3{
+    background-color: #FFCC99;    
+    margin-top:70px;
+}
+
+
+#fourth-h3:hover{
+    background-color: lightgreen;
+}
+
+
+    
+#td1{
+    background-color: rgb(255, 153, 153);
+}
+    
+#td2{
+    background-color: rgb(255, 204, 153);               
+}
+
+#td3{
+    background-color: rgb(255, 255, 153);                          
+}
+
+#td4{
+    background-color: rgb(153, 255, 153);                          
+}
+
+#td5{
+    background-color: rgb(153, 153, 255);                                     
+}
+
+#td6{
+    background-color: rgb(204, 153, 255);                                     
+}
+
+#td7{
+    background-color: rgb(255, 153, 255);                                     
+}
+
+td{
+    padding:15px;
+}
+
+#only-table{
+    margin:50px;
+}

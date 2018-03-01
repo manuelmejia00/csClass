@@ -1,0 +1,110 @@
+/* CSS File for How-To Page*/
+
+img{
+    margin:40px;
+}
+
+body{
+    font-family: arial;
+    animation: colorSwitch infinite 7s;
+    text-align:center;
+    background-color: #FFEBCD;
+    font-size: 19px
+}
+
+h3{
+    margin-top:100px;
+}
+
+p{
+    margin-right: 100px;
+    margin-left: 100px
+}
+
+
+
+#howto-title{
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    display:inline-block;
+    color:#606060;
+}
+
+#intro-h3{
+    background-color:#CCE5FF;
+}
+
+#intro-p{
+    border: 5px solid #CCE5FF;
+    margin-bottom: 125px;
+}
+
+
+
+
+#specifics-h3{
+    background-color:#99CCFF;
+    margin-top:100px;
+}
+
+#specifics-p{
+    border: 5px solid #99CCFF;
+}
+
+#specifics3, #specifics1, #specifics2{
+    border: 5px solid #99CCFF;
+}
+
+
+
+
+
+
+#choices-h3{
+    background-color:#66B2FF;
+}
+
+#choices-p{
+    border: 5px solid #66B2FF;
+}
+
+#choices1, #choices2, #choices3{
+    border: 5px solid #66B2FF;
+}
+
+
+
+
+
+#learned-h3{
+    background-color:#3399FF;
+    margin-top:100px;
+}
+
+#learned-p{
+    border: 5px solid #3399FF;
+}
+
+#learned1{
+    border: 5px solid #3399FF;
+}
+
+#learned{
+    width:1460;
+    height:36;
+}
+
+
+
+
+#steps-h3{
+    background-color:#0080FF;
+    margin-top:100px;
+}
+
+#steps-p{
+    border: 5px solid #0080FF;
+    margin-bottom: 150px
+}
+
+

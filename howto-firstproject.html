@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="howto.css" type="text/css"/>
+    <link rel="stylesheet" href="navbar.css" type="text/css"/>
+    <title>Manny's How-To Page</title>
+</head>
+<body>
+    
+    <ul id ="navbar">
+        <li><a href="#first-section"> Introduction</a></li>
+        <li><a href="#second-section"> Headers</a></li>
+        <li><a href="#third-section"> Navigation Bar</a></li>
+        <li><a href="#fourth-section"> Paragraphs</a></li>
+        <li><a href="#fifth-section"> Images</a></li>
+        <li><a href="#sixth-section"> Animations</a></li> 
+        <li><a href="https://preview.c9users.io/manuelmejia/csportfolio/index.html?_c9_id=livepreview0&_c9_host=https://ide.c9.io"> About Me Page</a></li>         
+    </ul>
+
+    <h1 id="howto-title">Manny's How-To Page</h1>
+    
+    <h3 id="intro-h3"><a name="first-section"> Introduction</a></h3>
+    
+    <p id="intro-p">In this project, I learned about HTML and CSS, which are languages used to create a webpage. 
+        Like I said on my About Me page, I learned that HTML is used to create the makeup of a page, while CSS styles the HTML and makes the webpage look pretty.My webpage has several components. The code for all these components are located in three files of mine: 
+        the index.html file, which contains all of the HTML for my page, the navbar.css file, which styles my navigation bar, and the index.css file, which styles everything else on my page.</p>
+
+    
+    <h3 id="headers-h3"><a name="second-section"> Headers</a></h3>
+    <p id="headers-p">To create the headers on my page, I used the &lt;h1&gt; and &lt;h3&gt; tags. The two tags are identical, but the &lt;h1&gt; tag creates a bigger heading. To use these tags,
+        I simply wrote what I wanted the heading to say, whether it be "Who am I?" or "What have I learned in terms of programming?" I then gave each of the headings an id
+        by using the id attribute, which, as I mentioned above, gives the tags a unique name that I can use to call upon them later.
+        After that, I went to my index.css class to style the headings. For all of the &lt;h3&gt; headings, I gave them a unique background color by calling them by their
+        individual ids and then writing "background-color: color" , where "color" was whatever color I gave them. For the lone &lt;h1&gt; tag of my page, I used something a
+        little different. First, I colored the header's text by going into the index.css file, calling the header, and writing "rgb:(102, 102, 255)" -<em>this uses RGB coloring, a way to specify colors</em>- , which gave the header's text a nice blue color. And, instead of giving the &lt;h1&gt; tag a background color, I gave it a border.
+        Underneath the rgb statement, I wrote "border-top-style: dotted" and "border-bottom-style: dotted". Doing this gave the &lt;h1&gt; header a dotted border above and below of the text.</p>
+    
+    <a target="_blank" href="https://imgbb.com/"><img src="https://image.ibb.co/hg59m5/header1.png" id="header1" border="0"></a>
+    <a target="_blank" href="https://imgbb.com/"><img src="https://image.ibb.co/mbRRYk/headers3.png" id="headers3" border="0"></a>
+    <a target="_blank" href="https://ibb.co/gDEKm5"><img src="https://preview.ibb.co/end1zQ/header2.png" id="header2" border="0"></a>
+
+    
+    <h3 id="nav-h3"><a name="third-section"> The Navigation Bar</a></h3>
+    
+    <p id="nav-p">At the very top of my page, there is something called a navigation bar, which allows users to more quickly jump to sections of my page. 
+        To make the navigation bar, I had to create a few things. Firstly, I made a CSS file for the navigation bar. Making this file would allow me to later change the style of the navigation bar.
+        After this, I went to my main index.html file and created the actual navigation bar using the &lt;ul&gt; and &lt;li&gt; tags, which stand for unordered list and list item, respectively. 
+        I used these tags, because the navbar is essentially a list, with each of the navbar buttons being a list item. With that, I made four list items, for each section of my page. 
+        I also added &lt;a&gt; tags along with the &lt;li&gt; tags. The &lt;a&gt; tag is the anchor tag and it's used to make links with the href attribute. 
+        So, I linked each of the navbar list items to different sections of my page, by writing "href=#section", where #section was the id (which gives tags a unique name, that can be called upon in other places) of whichever section of the page I was linking to. </p>
+    <a target="_blank" href="https://ibb.co/dLNYDk"><img src="https://preview.ibb.co/mouPKQ/navbar1.png" id="navbar1" border="0"></a>
+    <br>
+    <a target="_blank" href="https://imgbb.com/"><img src="https://image.ibb.co/eKbeKQ/navbar4.png" id="navbar4" border="0"></a>
+    <br>
+    <a target="_blank" href="https://ibb.co/f9FQR5"><img src="https://preview.ibb.co/es6oeQ/navbar3.png" id="navbar3" border="0"></a>
+    
+    <h3 id="paragraphs-h3"><a name="fourth-section"> The Paragraphs</a></h3>
+    <p id="paragraphs-p">To make all of text for the paragraphs on my page, I used the &lt;p&gt; tag. As you can see in the following images, the &lt;p&gt; tag is a very simple tag that allows me to write text on my page.
+        To then make all of the text for the paragraphs centered, I had to use some CSS. I realized that I actually wanted <em>everything</em> in my page, or at least my page's body, to be centered.
+        So, I called all of the tags in my body by writing body, and then I wrote "text-align:center", which aligned all of my pages text to the center. I also set the font to be arial, and added an animation that I talk about in the "Animations" section of this page.
+        After I did this, I realized that I wanted each of my paragraphs to have a colored border, but I wanted the paragraphs to have a uniquely colored border. To make each of my paragraphs unique, I had to add an id attribute.
+        to each of their p tags. I gave them ids like "first-paragraph." Then, I went to my index.css file and called each of the paragraphs one by one, using their ids. I gave them borders by
+        writing "border:" and then specifying how big I wanted the border to be, what kind of border I wanted, and the color of border. The end result looks like "border: 5px solid lightpink" , which 
+        gives me a solid light pink border that is 5 pixels big.</p>
+        
+    <a target="_blank" href="https://ibb.co/j7Je3k"><img src="https://preview.ibb.co/cfmow5/paragraph9.png" id="paragraph9" border="0"></a>
+    <a target="_blank" href="https://imgbb.com/"><img src="https://image.ibb.co/dHHQtk/paragraph2.png" id="paragraph2" border="0"></a>
+    <a target="_blank" href="https://imgbb.com/"><img src="https://image.ibb.co/bOUAR5/paragraph3.png" id="paragraph3" border="0"></a>
+    <a target="_blank" href="https://ibb.co/gMhVR5"><img src="https://preview.ibb.co/hzHKKQ/paragraph4.png" id="paragraph4" border="0" width="1040" height="43"></a>
+    
+    <h3 id="images-h3"><a name="fifth-section"> The Images</a></h3>
+    <p id="images-p"> In order to put all of the images on my page, I had to use the &lt;img&gt; tag. To display an image, I had to give the &lt;img&gt; tag a source attribute, which is written as src.
+        For me, I usually uploaded a picture to an image hosting website, and then I used the link it gave me as the source for my images. I gave all of my images borders that matched the paragraphs
+        they were related to. I did this in the exact same way I did with the paragraphs, by calling the images by their id in the index.css file, and then creating a border, for example "border: 5px solid lightpink". </p>
+
+    <a target="_blank" href="https://imgbb.com/"><img src="https://image.ibb.co/iC89KQ/image2.png" id="image2" border="0"></a>
+    <a target="_blank" href="https://ibb.co/fiVdDk"><img src="https://preview.ibb.co/e5vpKQ/image1.png" id="image1" border="0"></a>
+
+    <h3 id="animations-h3"><a name="sixth-section"> The Animations</a></h3>
+    <p id="animations-p"> There are a few animations that are found on my page. The first one is the <strong>hover</strong> animation, which affects or changes an element when your mouse
+        hovers over it. On my About Me page, this animation can be seen in two places. The first is when you hover your mouse over the picture of me sitting on a rock; the picture enlarges.
+        To create this animation, I had to define the dimensions of the image before the mouse hovers over it, and the dimensions <em>after</em> it hovers over it. To
+        do this, I went to my index.css file and called the picture by the id I had given it, "manny-rock". After calling it, I specified its beginning dimensions by writing
+        how many pixels I wanted the height and the width to be. Beneath that, I wrote the name of the animation and specified that I wanted it to last for 2 seconds. I then
+        wrote a second piece of code that said what I wanted to happen when the mouse hovers over the picture; increase the dimensions. I applied a similar hovering animation to the 
+        headers of my page, except instead of increasing the dimensions, I made it so that hovering over the headers changes the headers' background color to light green. 
+        A second animation on my page is the background color change. Here, I had to make the animation using something called "@keyframes", and I made the background alternate between
+        two colors over a span of 7 seconds.</p>
+    
+    <a target="_blank" href="https://imgbb.com/"><img src="https://image.ibb.co/gU84m5/animation1.png" id="animation1" border="0"></a>
+    <a target="_blank" href="https://imgbb.com/"><img src="https://image.ibb.co/j1Sx65/animation2.png" id="animation2" border="0"></a>
+
+</body>
+</html>

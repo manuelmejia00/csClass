@@ -1,0 +1,115 @@
+/* CSS File for How-To Page*/
+
+img{
+    margin:40px;
+}
+
+body{
+    font-family: arial;
+    animation: colorSwitch infinite 7s;
+    text-align:center;
+}
+
+h3{
+    margin-top:100px;
+}
+
+@keyframes colorSwitch{
+    0% {background-color:#FFEBCD;}
+    50% {background-color:#99FFFF;}
+    100% {background-color:#FFEBCD;}
+}    
+
+#howto-title{
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    display:inline-block;
+    color:#FF6666;
+}
+
+#intro-h3{
+    background-color:#B26FFF;
+}
+
+#intro-p{
+    border: 5px solid #B26FFF;
+    margin-bottom: 125px;
+}
+
+#nav-h3{
+    background-color:#FFFF66;
+}
+
+#nav-p{
+    border: 5px solid #FFFF66;
+}
+
+#navbar1, #navbar3, #navbar4{
+    border: 5px solid #FFFF66;
+}
+
+
+
+#headers-h3{
+    background-color:#6666FF;
+    margin-top:100px;
+}
+
+#headers-p{
+    border: 5px solid #6666FF;
+}
+
+#headers3, #header1, #header2{
+    border: 5px solid #6666FF;
+}
+
+
+
+#paragraphs-h3{
+    background-color:#FF66B2;
+    margin-top:100px;
+}
+
+#paragraphs-p{
+    border: 5px solid #FF66B2;
+}
+
+#paragraph1, #paragraph2, #paragraph3, #paragraph9{
+    border: 5px solid #FF66B2;
+}
+
+#paragraph{
+    width:1460;
+    height:36;
+}
+
+
+#images-h3{
+    background-color:#CD853F;
+    margin-top:100px;
+}
+
+#images-p{
+    border: 5px solid #CD853F;
+}
+
+#image2, #image1{
+    border: 5px solid #CD853F;
+}
+
+
+
+#animations-h3{
+    background-color:#B0C4DE;
+    margin-top:100px;    
+}
+
+#animations-p{
+    border: 5px solid #B0C4DE;
+}
+
+#animation1, #animation2{
+    border: 5px solid #B0C4DE;
+}
+
+
